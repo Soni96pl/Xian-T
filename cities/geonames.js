@@ -15,6 +15,8 @@ var processedCities = _.map(cities, function(city) {
   return {
     _id: Number(data[0]),
     name: data[1],
+    country: data[8],
+    population: data[14],
     alternate_names: _.map(names, function(name) {
       return name.toLowerCase();
     }),
