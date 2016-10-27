@@ -1,0 +1,21 @@
+{
+  "name": "xian-db-init",
+  "version": "1.0.0",
+  "description": "Initializer script for Xian-DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kuba77/Xian-T/"
+  },
+  "author": "Jakub Chronowski",
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "mongodb": "^2.2.11",
+    "underscore": "^1.8.3",
+    "yamljs": "^0.2.8"
+  }
+}
